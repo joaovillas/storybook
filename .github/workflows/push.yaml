@@ -1,0 +1,24 @@
+name: npm build, lint, test and publish
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        uses: actions/setup-node@v3
+      - run: npm install
+
+      - name: Build application
+        uses: actions/setup-node@v3
+      - run: npm run build
+
+      - name: Publish storybook
+        uses: actions/setup-node@v3
+      - run: npm run deploy
