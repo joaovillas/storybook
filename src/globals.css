@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .spacing-stack-quarck {
+    margin-bottom: 0.25rem;
+  }
+
+  .spacing-stack-nano {
+    margin-bottom: 0.5rem;
+  }
+
+  .spacing-stack-xxxs {
+    margin-bottom: 1rem;
+  }
+
+  .spacing-stack-xxs {
+    margin-bottom: 1.5rem;
+  }
+
+  .spacing-stack-xs {
+    margin-bottom: 2rem;
+  }
+
+  .spacing-stack-sm {
+    margin-bottom: 2.5rem;
+  }
+
+  .spacing-stack-md {
+    margin-bottom: 3rem;
+  }
+
+  .spacing-stack-lg {
+    margin-bottom: 3.5rem;
+  }
+
+  .spacing-stack-xl {
+    margin-bottom: 4rem;
+  }
+
+  .spacing-stack-xxl {
+    margin-bottom: 5rem;
+  }
+
+  .spacing-stack-xxxl {
+    margin-bottom: 7.5rem;
+  }
+
+  .spacing-stack-huge {
+    margin-bottom: 10rem;
+  }
+
+  .spacing-stack-giant {
+    margin-bottom: 12.5rem;
+  }
+}
+
+@layer components {
+  .spacing-inline-quarck {
+    margin-left: 0.25rem;
+  }
+
+  .spacing-inline-nano {
+    margin-left: 0.5rem;
+  }
+
+  .spacing-inline-xxxs {
+    margin-left: 1rem;
+  }
+
+  .spacing-inline-xxs {
+    margin-left: 1.5rem;
+  }
+
+  .spacing-inline-xs {
+    margin-left: 2rem;
+  }
+
+  .spacing-inline-sm {
+    margin-left: 2.5rem;
+  }
+
+  .spacing-inline-md {
+    margin-left: 3rem;
+  }
+
+  .spacing-inline-lg {
+    margin-left: 4rem;
+  }
+
+  .spacing-inline-xl {
+    margin-left: 5rem;
+  }
+}
+
+@layer components {
+  .spacing-inset-quarck {
+    padding: 0.25rem;
+  }
+  .spacing-inset-nano {
+    padding: 0.5rem;
+  }
+  .spacing-inset-xs {
+    padding: 1rem;
+  }
+  .spacing-inset-sm {
+    padding: 1.5rem;
+  }
+  .spacing-inset-md {
+    padding: 2rem;
+  }
+  .spacing-inset-lg {
+    padding: 2.5rem;
+  }
+}
+
+@layer components {
+  .spacing-squish-quarck {
+    padding: 0.25rem 0.5rem;
+  }
+  .spacing-squish-nano {
+    padding: 0.5rem 1rem;
+  }
+  .spacing-squish-xs {
+    padding: 1rem 1.5rem;
+  }
+  .spacing-squish-sm {
+    padding: 1rem 2rem;
+  }
+}
