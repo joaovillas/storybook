@@ -16,6 +16,7 @@
     "build": "yarn build:esm && yarn run build:cjs && yarn build:tailwind",
     "build:tailwind": "tailwindcss -i ./src/globals.css -o ./dist/globals.css",
     "dev": "storybook dev -p 6006",
+    "deploy": "gh-pages -d storybook-static -b gh-pages",
     "build:storybook": "storybook build"
   },
   "license": "MIT",

@@ -5,7 +5,7 @@ on:
       - main
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,4 +25,5 @@ jobs:
         uses: actions/setup-node@v3
       - run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
+
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
